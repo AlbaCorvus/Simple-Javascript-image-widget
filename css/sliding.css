@@ -1,0 +1,42 @@
+html{
+height:100%;
+width:100%;
+}
+
+body{
+height:100%;
+width:100%;
+}
+
+.image-holder{
+position:relative;
+min-height:40%;
+min-width:80%;
+background-color:#444444;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+.sub-image-holder{
+position:absolute;
+height:40%;
+width:60%;
+bottom:5%;
+left:30%;
+background-color:rgba(0,0,0,0.2);
+}
+
+img{
+height:80%;
+width:auto;
+margin:10px; auto;
+
+}
+
+
+
+.active{
+border:1px solid #ababab;
+opacity:0.5;
+
+}
